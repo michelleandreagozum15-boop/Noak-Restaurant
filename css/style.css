@@ -7,7 +7,7 @@
 body{
     font-family: Arial, Sans-serif;
     line-height: 1.6;
-    color: #343131;
+    color: black;
 }
 
 .container{
@@ -61,21 +61,20 @@ body{
     /* background-image: url(./img/Messenger_creation_825A9D27-6205-4D6F-A9A7-7A04AF19C6D5.jpeg); */
     /* background-color: #3f3f3d; */
     padding: 5em 0;
-    color: #fff;
+    color: #8b0000;
     text-align: center;
 }
 .hero{
     position:relative;
     overflow: hidden;
     padding: 5em 0;
-    color: #fff;
-    text-align: center;
+    color: #8b0000;
 }
 .hero::before{
     content:"";
     position: absolute;
     inset: 0;
-    background-image: url(./img/Messenger_creation_825A9D27-6205-4D6F-A9A7-7A04AF19C6D5.jpeg);
+    background-image: url(../img/logo.png);
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -167,7 +166,7 @@ footer {
     padding: 0.75em 1.5em;
     cursor: pointer;
     border-radius: 5px;
-    transition: background 0.3s ease;
+    transition:0.3s ease;
 }
 .contact-form button:hover{
     background-color: #8b0000;
